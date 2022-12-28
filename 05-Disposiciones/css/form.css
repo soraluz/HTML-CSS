@@ -1,0 +1,36 @@
+.form{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.principal{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.contenedor{
+  
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedor2{
+
+    display: flex;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+label{
+    width: 300px;
+    height: 30px;
+
+}

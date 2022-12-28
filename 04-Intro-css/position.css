@@ -1,0 +1,32 @@
+#inline{
+    display: inline;
+}
+.contenedor{
+    border:2px solid blue;
+}
+.relative{
+    border:1px solid rgb(9, 41, 20);
+    position: relative;
+    left: 80px;
+}
+.absolute{
+    position: absolute;
+    top: 100px; 
+}
+.fixed{
+    border:1px solid rgb(185, 98, 146);
+    position:fixed;
+    bottom: 50px;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+    border: 2px solid yellow;   
+    z-index: 10;
+    background-color: rgb(35, 23, 206);
+}
+.fixed{
+    border:1px solid rgb(185, 98, 146);
+    position:fixed;
+    bottom: 50px;
+}
