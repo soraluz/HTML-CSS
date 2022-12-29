@@ -2,8 +2,8 @@
     color: green;
 }
 
-body section.main .contenedor p {
-    color: green;
+.main .contenedor p {
+    color: red;
 }
 
 .contenedor #boton-contenedor {
