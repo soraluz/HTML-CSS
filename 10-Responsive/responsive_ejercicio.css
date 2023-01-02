@@ -1,0 +1,30 @@
+.principal{    
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    padding: 10px;
+    gap: 5px;
+    justify-content:space-around;
+    align-items: center;
+    width: 75vw;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 0, 119);
+    padding: 5px;
+}
+
+.derecha{
+    border: 1px solid green;
+    width: 75vw;
+}
+@media (max-width:640px){
+    .principal{
+       
+        flex-direction: column-reverse;
+    }
+    .contenedor{
+        flex-direction: row;
+    }
+}
